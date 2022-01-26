@@ -1,0 +1,18 @@
+{
+    "name": "nyizinthant/mini-project",
+    "authors": [
+            {
+                "name": "Nyi Zin Thant",
+                "email": "nyizinthant@gmail.com"
+            }
+        ],
+    "require": {
+        "fakerphp/faker": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers"
+        }
+    }
+}
